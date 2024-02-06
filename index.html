@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            login into facebook
+        </title>
+        <link href="facebookstyle.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="container ">
+            <div class="header">
+                <div class="logo">
+                    <a class="logo-text" href="index.html">facebook</a>
+                </div>
+                <div class="login">
+                    <form action="">
+                        <table class="login-controls">
+                            <tr>
+                                <td><label class="login-label"> E-mail or Username</label></td>
+                                <td><label class="login-label">Password</label></td>
+                            </tr>
+                            <tr>
+                                <td> <input class="linput" type = "text"  required pattern = "^([a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3})|(\d{3}-\d{3}-\d{4})$"/>
+                                </td>
+                                <td> <input class="linput" type="password" ></td>
+                                <td > <input class="login-button" type="submit" value="Log In"></td>
+                            </tr> 
+                            <tr>
+                                <td> </td>
+                                <td><a href="forgotpassword.html" class="forgot-label">Forgotten Account?</a> </td>
+                            </tr>
+                        </table>
+
+                    </form>
+
+                </div>
+
+                
+            </div>
+            <div class="main-body">
+                <div class="left-section">
+                    <p class="para ">Facebook helps you connect and share with <br> people in your life </p>
+                    <img class="image" src="face.jpg">
+                </div>
+                <div class="right-section">
+                    <h1 class="create-heading">  Create an account</h1>
+                    <p class="sub-para">its quick and easy</p>
+                    <forms class="form-style" action="hello2.html" id="signup-form">
+                      <div> 
+                        <input name="fname" class="form-style" type="text" placeholder="First Name">
+                        <input name="sname" class="form-style" type="text" placeholder="Sur Name">
+                      </div>
+                      <div>
+                        <input class="form-style2" type="phone" placeholder="Mobile Number or Email Address">
+                      </div>
+                      <div>
+                      <input class="form-style2" type="password" placeholder="new password"><br><br>
+                      </div>  
+                      <label class="sub-para"   >Birthday</label><br><br>
+                        <input class="form-style" type="date" placeholder="Birthday"><br><br>
+                        <label class="sub-para"   >Gender</label><br><br>
+                        Male<input  type="radio" name="gender">
+                        Female<input  type="radio" name="gender">
+                        other<input  type="radio" name="gender"><br><br>
+                        <p class="terms">By clicking Sign Up, you agree to our Terms, Data policy <br>and Cookie policy. You may recieve SMS notification from <br>us and can opt out at any time.  </p> 
+                        <input class="create-button" type="submit" value="Sign Up">
+
+                    </forms>
+
+                </div>
+
+            </div>
+        </div
+            <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"> </script>   
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>   
+            <script src="script.js"> </script>
+        </body>
+</html>
